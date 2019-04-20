@@ -4,26 +4,6 @@ canvas.height = window.innerHeight;
 
 var c = canvas.getContext('2d');
 
-// c.fillRect(100, 100, 100, 100);
-// c.fillRect(50, 50, 50, 50);
-//
-// c.beginPath();
-// c.moveTo(100, 100);
-// c.lineTo(200, 50);
-// c.stroke();
-//
-// var circleAmount = Math.random() * 100;
-//
-// for (var i = 0; i < circleAmount; i++) {
-//   var x = Math.random() * canvas.width;
-//   var y = Math.random() * canvas.height;
-//   //var clr = rgb(Math.round(Math.random()*255), Math.round(Math.random()*255), Math.round(Math.random()*255));
-//   c.beginPath();
-//   c.arc(x, y, 50, 0, 2*Math.PI, false);
-//   c.strokeStyle = "#"+((1<<24)*Math.random()|0).toString(16);
-//   c.stroke();
-// }
-
 var mouse = {
   x: undefined,
   y: undefined
